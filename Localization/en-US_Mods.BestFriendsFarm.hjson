@@ -1,0 +1,27 @@
+Mods.BestFriendsFarm.Buffs.CatBondBuff.DisplayName: Cat's Grace
+CowBondBuff.DisplayName: Cow Bond Buff
+DogBondBuff.DisplayName: Dog Bond Buff
+CatBondBuff.DisplayName: Cat Bond Buff
+
+NPCs: {
+	Cat.DisplayName: Cat
+	Cow.DisplayName: Cow
+	Dog.DisplayName: Dog
+}
+
+Buffs: {
+	CatBondBuff: {
+		DisplayName: Feline Agility
+		Description: The grace of your bonded cat inspires you to move with swift, silent steps.
+	}
+
+	CowBondBuff: {
+		DisplayName: Bovine Fortitude
+		Description: The steadfast presence of your gentle cow fills you with sturdy resilience.
+	}
+
+	DogBondBuff: {
+		DisplayName: Loyal Canine Companion
+		Description: Your loyal dog stands by your side, boosting your vitality and spirit.
+	}
+}

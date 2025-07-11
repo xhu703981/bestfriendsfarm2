@@ -1,0 +1,114 @@
+# Best Friends Farm
+
+**Bring warmth, companionship, and a touch of AI magic to your Terraria world!**
+
+## 🐾 Mod Features & Mechanisms
+
+- **Adoptable Animals:**  
+  Friendly dogs, cats, and cows will spawn in your world, each waiting to become your loyal companion.
+
+- **Bonding System:**  
+  Build a special relationship with each animal by feeding, chatting, and spending time together. Your bond level increases as you care for them, unlocking new tiers of friendship and unique buffs!
+
+- **Feeding Mechanics:**  
+  - **Dog:** Loves bones! Feed your dog bones to grow closer.
+  - **Cat:** A true fish connoisseur—any kind of fish will win your cat’s heart.
+  - **Cow:** Nothing beats fresh hay for your gentle cow.
+  - Each animal only accepts its favorite food, so stock up and show your love!
+
+- **Conversation Powered by LLM (AI):**  
+  Thanks to integrated Large Language Model (LLM) technology, you can actually talk to your animals!  
+  - Open the animal interaction UI, type a message, and your pet will reply in its own unique, adorable style.
+  - Dogs are playful and silly, cats are sassy and aloof, and cows are gentle and always mention grass or “moo”!
+  - Every conversation is powered by real AI, making each interaction feel alive and personal.
+
+- **Animal Interaction UI:**  
+  A custom, easy-to-use interface lets you feed, chat, and bond with your animals.  
+  - Right-click your animal to open the UI.
+  - Choose to feed or talk, and watch your friendship grow!
+
+- **Buffs & Bonding Tiers:**  
+  As your bond deepens, your animal will grant you special buffs:
+  - **Dog:** +5 max life and +10 life regen when bonded.
+  - **Cat:** +10% movement speed when bonded.
+  - **Cow:** +6 defense when bonded.
+  - Higher bond levels unlock stronger effects and show your animal’s true affection!
+
+- **Bonding Progression:**  
+  - Feed your animal daily to maintain and increase your bond.
+  - Streaks and favorite foods give bonus bonding points.
+  - Neglecting your animal will slowly decrease your bond—don’t forget to visit your friends!
+
+## 🌟 Why Best Friends Farm?
+
+Every hero deserves a companion. Every adventure is brighter with a loyal friend by your side.  
+With Best Friends Farm, your Terraria journey will never be lonely—let the cuddles, purrs, and moos fill your world with joy!
+
+------------------------------
+
+# 好朋友农场
+
+**为你的泰拉瑞亚世界带来温暖、陪伴，还有一丝AI的魔法！**
+
+## 🐾 主要特色与机制
+
+- **可收养的动物：**  
+  可爱的狗、猫和奶牛会在你的世界中出现，成为你忠实的伙伴。
+
+- **羁绊系统：**  
+  通过喂食、聊天和陪伴，与每只动物建立特殊的关系。随着你悉心照料，羁绊等级会提升，解锁新的友谊阶段和独特的增益！
+
+- **喂食机制：**  
+  - **狗：** 最爱骨头！用骨头喂狗可以增进感情。
+  - **猫：** 真正的鱼类美食家——任何鱼都能俘获猫咪的心。
+  - **奶牛：** 没有什么比新鲜的干草更让奶牛开心。
+  - 每只动物只接受自己最喜欢的食物，记得多多准备!
+
+- **AI对话（大语言模型）：**  
+  得益于大语言模型（LLM）技术，你真的可以和动物对话！  
+  - 打开动物互动界面，输入你的消息，你的宠物会用独特又可爱的风格回复你。
+  - 狗狗活泼呆萌，猫咪傲娇俏皮，奶牛温柔沉稳！
+  - 每一次对话都由真实AI驱动，让互动更加生动有趣。
+
+- **动物互动界面：**  
+  简洁易用的自定义界面，让你轻松喂食、聊天、增进感情。  
+  - 右键点击动物即可打开界面。
+  - 选择喂食或聊天，见证亲密成长！
+
+- **增益与羁绊阶段：**  
+  羁绊加深后，动物会为你带来特殊增益：
+  - **狗：** 羁绊后+5最大生命值和+10生命再生。
+  - **猫：** 羁绊后+10%移动速度。
+  - **奶牛：** 羁绊后+6防御。
+  - 更高的羁绊等级会解锁更强的效果，展现动物的真挚情感！
+
+- **羁绊成长：**  
+  - 每天喂食动物，维持并提升羁绊。
+  - 连续喂食和最爱食物会获得额外羁绊点。
+  - 忽视动物会导致羁绊缓慢下降——别忘了常去看看你的朋友！
+！
+
+------------------------------
+
+## 🧠 How to Enable AI Conversation (LLM Setup)
+
+To use the animal conversation feature, you need to run a local LLM (AI) server:
+
+1. Download the required files from the mod’s llama_cpp folder:
+   - `llama-server.exe`
+   - A model file (e.g., `phi-2.Q3_K_M.gguf`)
+
+2. Start the LLM server:
+   - Double-click `llama-server.exe` (or run it from the command line).
+   - Wait for the server to say it’s ready (usually shows a message like “Listening on port 8080”).
+
+3. Make sure the mod is configured to connect to the server:
+   - By default, the mod tries to connect to `http://localhost:8080`.
+   - If you need to change this, edit the mod’s config file or use the in-game settings (if available).
+
+4. Now, when you talk to your animals, you’ll get real AI-powered replies!
+
+**Troubleshooting:**
+- If you get no response, make sure the server is running and the model file is present.
+- Some models require a powerful CPU or lots of RAM.
+- For more help, check the mod’s Workshop page or discussion section.
